@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<title>Platillos</title>
+</head>
+<body> 
+    <table class="table table-striped table table-hover table table-bordered">
+        <thead>
+        <tr>
+            <th class="table-info">Platillo</th>
+            <th class="table-info">Nombre</th>
+            <th class="table-info">País de Origen</th>
+            <th class="table-info">Receta</th>
+            <th class="table-info">Donde comprar</th>
+            <th class="table-info">Opciones</th>
+        </tr>
+        </thead>
+    
+    <tbody class="table-group-divider">
+        <tr>
+            <td> <figure class="figure">
+                <img src="img/guacamole.jpeg" width="300px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo guacamole">
+                <figcaption class="figure-caption">Foto Platillo</figcaption>
+              </figure> 
+            </td>
+            <td>Guacamole</td>
+            <td>México <figure class="figure">
+                <img src="img/mexico.png" width="52px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo guacamole">
+                <figcaption class="figure-caption"></figcaption>
+              </figure> </td>
+            <td> 
+                <span class="badge text-bg-info"><i style="color: aliceblue;" onclick="guacamole()">Receta</i></span>
+             </td>
+            <td> 
+                <p> <i class="bi bi-caret-right"></i> El Guanaco</p>
+                <p> <i class="bi bi-caret-right"></i> Restaurante Laca Laca</p>
+                <p> <i class="bi bi-caret-right"></i> Taquería El Mezcal</p>
+                <p> <i class="bi bi-caret-right"></i> Carnitas Mamá Chuz</p> 
+                <p> <i class="bi bi-caret-right"></i> El Zocalo</p>
+            </td>
+            <td>
+                <p> <i class="bi bi-caret-right-fill"></i> Guacamole de Kale</p>
+                <p><i class="bi bi-caret-right-fill"></i> Guacamole Tropical</p>
+                <p> <i class="bi bi-caret-right-fill"> </i>Guacamole de Manzana</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Guacamale de guisantes</p>     
+            </td>
+        </tr>
+        <tr>
+            <td> <figure class="figure">
+                <img src="img/paella.jpeg" width="300px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo paella">
+                <figcaption class="figure-caption">Foto Platillo</figcaption>
+              </figure> 
+            </td>
+            <td>Paella</td>
+            <td>España <figure class="figure">
+                <img src="img/españa.png" width="52px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo guacamole">
+                <figcaption class="figure-caption"></figcaption>
+              </figure> </td>
+            <td>
+                <span class="badge text-bg-info"><i style="color: aliceblue;" onclick="paella()">Receta</i></span>
+            </td>
+            <td>
+                <p> <i class="bi bi-caret-right"></i> Clavo y Canela</p>
+                <p> <i class="bi bi-caret-right"></i> A Fuego Lento</p>
+                <p> <i class="bi bi-caret-right"></i> The Green House</p>
+                <p> <i class="bi bi-caret-right"></i> Verdi's</p>
+                <p> <i class="bi bi-caret-right"></i> Humo BBQ</p>
+            </td>
+            <td>
+                <p> <i class="bi bi-caret-right-fill"></i> Paella Valenciana</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Paella de carne</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Paella de marisco</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Paella mixta</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Paella negra y blanca</p>
+            </td>
+        </tr>
+        <tr>
+            <td> <figure class="figure">
+                <img src="img/disneys-ratatouille-ddmfs-1x1-0748-913d07f952084216a2ba9dd4fc4c89fd.jpeg" width="300px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo Ratatouille">
+                <figcaption class="figure-caption">Foto Platillo</figcaption>
+              </figure> 
+            </td>
+            <td>Ratatouille</td>
+            <td>Francia <figure class="figure">
+                <img src="img/francia.png" width="52px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo guacamole">
+                <figcaption class="figure-caption"></figcaption>
+              </figure> </td>
+            <td>
+                <span class="badge text-bg-info"><i style="color: aliceblue;" onclick="Ratatouille()">Receta</i></span>
+            </td>
+            <td> 
+                <p> <i class="bi bi-caret-right"></i> La Tour </p>
+                <p> <i class="bi bi-caret-right"></i> Le Croissant Multiplaza</p>
+                <p> <i class="bi bi-caret-right"></i> Délice d' la France</p>
+                <p> <i class="bi bi-caret-right"></i> Sucrée </p>
+                <p> <i class="bi bi-caret-right"></i> Le Croissant San Benito </p>
+            </td>
+            <td>
+                <p> <i class="bi bi-caret-right-fill"></i> Ratatouille en torre </p>
+                <p> <i class="bi bi-caret-right-fill"></i> Ratatouille de berenjena </p>
+                <p> <i class="bi bi-caret-right-fill"></i> Pechugas rellenas con Ratatouille</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Tallarines con Ratatouille</p>
+            </td>
+        </tr>
+</tbody>
+<tfoot>
+    <th> <i class="bi bi-cash-coin"></i> Precios</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th> <span class="badge text-bg-warning">Entre $8.00 a $15.00 dólares</span> </th>
+    <th></th>
+</tfoot>
+</table>
+
+
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+   function guacamole () {
+
+    Swal.fire({
+  title: 'Guacamole',
+  html: 
+  'Picamos la cebolla, cilantro y un limón. Cortamos los aguacates y los machacamos, agregamos los ingredientes en un plato y podemos acompañarlo con nachos o totopos',
+  
+  imageUrl: 'img/guacamole.jpeg',
+  imageWidth: 200,
+  imageHeight: 200,
+  imageAlt: 'Custom image',
+})
+       
+   }
+</script>
+
+<script>
+    function paella() {
+ 
+     Swal.fire({
+   title: 'Paella',
+   html: 
+   'Sofreímos las gambas y los mariscos junto con el ajo y cebolla picada. Agregue el arroz a la sartén y cocine por otros 5min. Sirva en un plato',
+   
+   imageUrl: 'img/paella.jpeg',
+   imageWidth: 200,
+   imageHeight: 200,
+   imageAlt: 'Custom image',
+ })
+        
+    }
+ </script>
+
+<script>
+    function Ratatouille() {
+ 
+     Swal.fire({
+   title: 'Ratatouille',
+   html: 
+   'Corte la berenjena, jitomate y albahaca en rodajas. En un sarten agregue aceite de oliva y sofría la salsa de tomate, luego acomode las verduras alternadamente y pongalos en el horno. Decora con más albahaca y listo',
+   
+   imageUrl: 'img/ratatouille.jpeg',
+   imageWidth: 300,
+   imageHeight: 200,
+   imageAlt: 'Custom image',
+ })
+        
+    }
+ </script>
+
+</html>
